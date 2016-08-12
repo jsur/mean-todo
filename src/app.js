@@ -5,6 +5,8 @@ var router = require('./api');
 
 var app = express();
 
+require('./database');
+
 app.use('/', express.static('public')); //Here express knows to serve static files from public
 
 app.use('/api', router); //'/api' is the namespace where we serve from.
