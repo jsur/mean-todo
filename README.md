@@ -8,6 +8,6 @@ Angular 1.4.4
 #Tools
 
 nodemon for server restarts  
-Postman for http requests  
+Postman for http request tests  
 webpack for module bundling  
 iron-node for debugging  
