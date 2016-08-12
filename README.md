@@ -10,3 +10,4 @@ Angular 1.4.4
 nodemon  
 Postman  
 node-inspector  
+webpack  
