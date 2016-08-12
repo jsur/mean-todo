@@ -7,7 +7,7 @@ Angular 1.4.4
   
 #Tools
 
-nodemon  
-Postman  
-node-inspector  
-webpack  
+nodemon for server restarts  
+Postman for http requests  
+webpack for module bundling  
+iron-node for debugging  
