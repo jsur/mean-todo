@@ -11,3 +11,4 @@ nodemon for server restarts
 Postman for http request tests  
 webpack for module bundling  
 iron-node for debugging  
+body-parser for request body parsing  
