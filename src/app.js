@@ -6,6 +6,17 @@ var app = express();
 
 app.use('/', express.static('public')); //Here express knows to serve static files from public
 
+var router = express.Router();
+
+router.get('/todos', function(req, res) {
+	res.json({todos: []});
+});
+
+// TODO: Add POST route to create new entries
+// TODO: Add PUT route to update existing entries
+// TODO: Add DELETE route to delete entries
+
+app.use('/api', router); //'/api' is the namespace where we serve from.
 
 app.listen(3000, function() {
 	console.log("The server is running on port 3000.");
